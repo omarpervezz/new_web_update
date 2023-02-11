@@ -668,6 +668,11 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
     font-size: 1.3rem;
   }
 }
+@media only screen and (max-width: 766px) {
+  .banner_ {
+    height: 65vh !important;
+  }
+}
 .recent_listing .container-fluid h2 {
   margin-bottom: 7rem;
 }
@@ -950,4 +955,10 @@ section {
 h2 {
   font-weight: 600;
   line-height: 1.2;
+}
+
+@media only screen and (max-width: 576px) {
+  html {
+    font-size: 49% !important;
+  }
 }/*# sourceMappingURL=style.css.map */

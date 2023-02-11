@@ -94,3 +94,9 @@ $px-color-bodybg: rgb(19, 26, 41);
     font-size: 1.3rem;
   }
 }
+
+@media only screen and (max-width: 766px) {
+  .banner_ {
+    height: 65vh !important;
+  }
+}
