@@ -1,0 +1,21 @@
+.work_sec {
+  padding: 5rem 0;
+  text-align: center;
+  min-height: 30vh;
+  //   background: linear-gradient(60deg, #f2f9ff, #00fdff);
+
+  .p_container {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    .paragraph__two {
+      margin-top: 1.5rem;
+      color: #303441;
+    }
+  }
+  .work_ {
+    background: $black;
+    color: $white;
+  }
+}
